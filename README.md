@@ -17,3 +17,8 @@ Built following Udemy course [The Complete Elixir and Phoenix Bootcamp](https://
   > mix docs
   > open doc/index.html
 ```
+
+## Run tests (including doctests)
+```
+  > mix test
+```
