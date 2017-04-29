@@ -4,13 +4,16 @@
 
 Built following Udemy course [The Complete Elixir and Phoenix Bootcamp](https://www.udemy.com/the-complete-elixir-and-phoenix-bootcamp-and-tutorial)
 
-## Installation
+## To run this application
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `cards` to your list of dependencies in `mix.exs`:
+```
+  > git clone https://github.com/NicolePell/elixir_cards.git
+  > cd elixir_cards
+  > mix deps.get
+```
 
-```elixir
-def deps do
-  [{:cards, "~> 0.1.0"}]
-end
+## Generate and view docs
+```
+  > mix docs
+  > open doc/index.html
 ```
